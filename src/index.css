@@ -1,0 +1,46 @@
+#root {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: blueviolet;
+}
+
+#appPersonalInfo {
+  /* border-radius: 5px 0 0 0; */
+  text-align: center;
+  border: 2px solid blueviolet in;
+  padding: 5px;
+  border-bottom: 2px solid red;
+}
+
+#appPersonalInfo img {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 180px;
+}
+
+.toLeft {
+  text-align: left;
+}
+
+#appContacts {
+  /* border-radius: 0 0 0 5px; */
+  text-align: center;
+  border: 2px solid blueviolet in;
+  padding: 5px;
+}
+
+#leftPanel {
+  width: 50%;
+}
+
+#appExperience {
+  width: 100%;
+  padding: 10px;
+}
+
+#main {
+  border-left: 2px solid red;
+}
